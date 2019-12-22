@@ -27,6 +27,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import'],
   rules: {
     //'@typescript-eslint/rule-name': 'error',
+    'spaced-comment': 'off',
     'no-underscore-dangle': 'off',
     'no-debugger': 'off',
     'import/extensions': 'off',

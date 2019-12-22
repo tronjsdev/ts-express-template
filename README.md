@@ -25,3 +25,6 @@ Run production (using `pm2`):
 ```
 npm start
 ```
+
+### TODO
+[+] [Gracefully reloading down your script](https://github.com/remy/nodemon#gracefully-reloading-down-your-script)
