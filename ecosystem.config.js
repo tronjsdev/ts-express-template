@@ -11,7 +11,7 @@ module.exports = {
       exec_mode: 'fork',
       autorestart: true,
       watch: true,
-      ignore_watch: ["node_modules", "./public"],
+      ignore_watch: ["node_modules", "./public", "./src/public"],
       max_memory_restart: "1G",
       out_file: "/dev/null",
       error_file: "/dev/null",
@@ -21,8 +21,8 @@ module.exports = {
         NODE_ENV: "development"
       },
       env_production: {
-        //PORT: 80,
-        NODE_ENV: "production"
+        PORT: 8080,
+        NODE_ENV: "production",
       }
     }
   ],
